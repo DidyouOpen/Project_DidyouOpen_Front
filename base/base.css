@@ -80,7 +80,7 @@ a:hover {
 
 /* Footer */
 .footer {
-    position: absolute;
+    position: relative;
     left: 0%;
     bottom: 0%;
     display: inline-flex;
@@ -106,35 +106,3 @@ a:hover {
 /* ************************************************************ */
 
 /* content */
-
-.infoWindows{
-    display: flex;
-    flex-direction: row;
-}
-
-.infoWindows-img{
-    display: flex;
-    flex-direction: row;
-}
-
-.infoWindows-sub{
-    display: flex;
-    flex-direction: column;
-}
-
-.infoWindows-sub-description{
-    display: flex;
-    flex-direction: column;
-    color: gray;
-    word-break: keep-all;
-    width: 300px;
-    font-size: 10pt;
-}
-
-.infoWindows-Button{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5%;
-    justify-content: center;
-    align-items: flex-end;
-}
