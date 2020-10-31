@@ -90,7 +90,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url('./img/background-img.png');
+    background-image: url('IdeaProjects/Project_DidyouOpen_Front/intro/img/background-img.png');
 }
 
 .footer-text {
