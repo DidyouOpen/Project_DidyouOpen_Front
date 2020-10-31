@@ -1,6 +1,6 @@
 let mapContainer = document.getElementById('map'), // 지도를 표시할 div
     mapOption = {
-        center: new kakao.maps.LatLng(36.809982, 127.111104), // 처음 나타날 지도 위치 위, 경도
+        center: new kakao.maps.LatLng(36.809554, 127.109752), // 처음 나타날 지도 위치 위, 경도
         level: 3 // 지도의 확대 레벨
     };
 /***********************지도 생성***************************/
@@ -71,6 +71,87 @@ let positions = [
         // image: '<img src="img/test1.png" alt = "My Image" width="50">',
         latlng: new kakao.maps.LatLng(36.810715, 127.115145)
     },
+    {
+        content: '<div class="infoWindows">' +
+            '<img src="img/img4.jpg" alt = "My Image" width="100px" height="100px" class="infoWindows-img">' +
+            '<div class="infoWindows-sub">'+
+            '<b class="infoWindows-sub-title">렉스커피</b>' +
+            '<span class="infoWindows-sub-description">' +
+            '다들 렉스 커피 좋아하시나요? 렉스 커피는 맛있습니다. 왜냐하면 맛있거든요.' +
+            '</span>' +
+            '<div class="infoWindows-Button">'+
+            '<input type=button style="width:50pt;height:20pt;" value="Open">' +
+            '<input type=button style="width:50pt;height:20pt;" value="Close">' +
+            // 아래 버튼에 예약 페이지 링크 첨부 하시면 됩니다
+            '<input type="button" style="width:70pt;height:20pt;" value="예약">' +
+            '</div>'+
+            '</div>'+
+            '</div>',
+        removable: iwRemoveable,
+        // image: '<img src="img/test1.png" alt = "My Image" width="50">',
+        latlng: new kakao.maps.LatLng(36.808803, 127.107084)
+    },
+    {
+        content: '<div class="infoWindows">' +
+            '<img src="img/img5.jpg" alt = "My Image" width="100px" height="100px" class="infoWindows-img">' +
+            '<div class="infoWindows-sub">'+
+            '<b class="infoWindows-sub-title">겐트커피</b>' +
+            '<span class="infoWindows-sub-description">' +
+            '다들 겐트 커피 좋아하시나요? 겐트 커피는 맛있습니다. 왜냐하면 맛있거든요.' +
+            '</span>' +
+            '<div class="infoWindows-Button">'+
+            '<input type=button style="width:50pt;height:20pt;" value="Open">' +
+            '<input type=button style="width:50pt;height:20pt;" value="Close">' +
+            // 아래 버튼에 예약 페이지 링크 첨부 하시면 됩니다
+            '<input type="button" style="width:70pt;height:20pt;" value="예약">' +
+            '</div>'+
+            '</div>'+
+            '</div>',
+        removable: iwRemoveable,
+        // image: '<img src="img/test1.png" alt = "My Image" width="50">',
+        latlng: new kakao.maps.LatLng(36.808308, 127.106292)
+    },
+    {
+        content: '<div class="infoWindows">' +
+            '<img src="img/img5.jpg" alt = "My Image" width="100px" height="100px" class="infoWindows-img">' +
+            '<div class="infoWindows-sub">'+
+            '<b class="infoWindows-sub-title">겐트커피</b>' +
+            '<span class="infoWindows-sub-description">' +
+            '다들 겐트 커피 좋아하시나요? 겐트 커피는 맛있습니다. 왜냐하면 맛있거든요.' +
+            '</span>' +
+            '<div class="infoWindows-Button">'+
+            '<input type=button style="width:50pt;height:20pt;" value="Open">' +
+            '<input type=button style="width:50pt;height:20pt;" value="Close">' +
+            // 아래 버튼에 예약 페이지 링크 첨부 하시면 됩니다
+            '<input type="button" style="width:70pt;height:20pt;" value="예약">' +
+            '</div>'+
+            '</div>'+
+            '</div>',
+        removable: iwRemoveable,
+        // image: '<img src="img/test1.png" alt = "My Image" width="50">',
+        latlng: new kakao.maps.LatLng(36.808308, 127.106292)
+    },
+    {
+        content: '<div class="infoWindows">' +
+            '<img src="img/img6.jpg" alt = "My Image" width="100px" height="100px" class="infoWindows-img">' +
+            '<div class="infoWindows-sub">'+
+            '<b class="infoWindows-sub-title">헬로우 슬라임</b>' +
+            '<span class="infoWindows-sub-description">' +
+            '다들 헬로우 슬라임 커피 좋아하시나요? 헬로우 슬라임 커피는 맛있습니다. 왜냐하면 맛있거든요.' +
+            '</span>' +
+            '<div class="infoWindows-Button">'+
+            '<input type=button style="width:50pt;height:20pt;" value="Open">' +
+            '<input type=button style="width:50pt;height:20pt;" value="Close">' +
+            // 아래 버튼에 예약 페이지 링크 첨부 하시면 됩니다
+            '<input type="button" style="width:70pt;height:20pt;" value="예약">' +
+            '</div>'+
+            '</div>'+
+            '</div>',
+        removable: iwRemoveable,
+        // image: '<img src="img/test1.png" alt = "My Image" width="50">',
+        latlng: new kakao.maps.LatLng(36.807470, 127.106820)
+    },
+
 ];
 
 /***********************마커 및 인포윈도우 생성***************************/
