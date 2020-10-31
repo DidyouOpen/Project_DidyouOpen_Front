@@ -112,40 +112,18 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-/* 팀 이름 전체를 감싸는 div의 css */
-.team-box {
-  justify-content: center;
-  border-radius: 7px;
-  background-color: #FFB8B9;
-  width: 20%;
-  height: auto;
-  padding: 20px;
-  border: 5px solid #000000;
-}
-
-/* 소개 문구와 팀 이름 문구 공통 css */
-.intro,
-.team {
-  font-family: "Metrophobic";
-  display: flex;
-  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* 소개 문구 css */
 .intro {
+  font-family: 'Dancing Script', cursive;
   display: flex;
   justify-content: center;
   color: #FFB8B9;
   font-size: 60px;
   margin-bottom: 7%;
-}
-
-/* 팀 이름 문구 css */
-.team {
-  color: #000000;
-  font-size: 40px;
 }
 
 /* 백, 프론트 인원 div 공통 css */
