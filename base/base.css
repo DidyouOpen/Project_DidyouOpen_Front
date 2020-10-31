@@ -80,6 +80,9 @@ a:hover {
 
 /* Footer */
 .footer {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
     display: inline-flex;
     width: 100%;
     padding: 2vw 12vw 2vw 12vw;
