@@ -104,8 +104,9 @@ a:hover {
 
 /* content */
 
-/*[sehwan]*/
+/* [sehwan] */
 
+/* 전체 컨테이너 css */
 .out {
   margin: 3%;
   display: flex;
@@ -113,6 +114,7 @@ a:hover {
   justify-content: center;
 }
 
+/* 팀 이름 전체를 감싸는 div의 css */
 .team-box {
   justify-content: center;
   border-radius: 7px;
@@ -123,6 +125,7 @@ a:hover {
   border: 5px solid #000000;
 }
 
+/* 소개 문구와 팀 이름 문구 공통 css */
 .intro,
 .team {
   font-family: "Metrophobic";
@@ -130,6 +133,7 @@ a:hover {
   justify-content: center;
 }
 
+/* 소개 문구 css */
 .intro {
   display: flex;
   justify-content: center;
@@ -138,11 +142,13 @@ a:hover {
   margin-bottom: 7%;
 }
 
+/* 팀 이름 문구 css */
 .team {
   color: #000000;
   font-size: 40px;
 }
 
+/* 백, 프론트 인원 div 공통 css */
 .back-end,
 .front-end {
   display: flex;
@@ -150,22 +156,26 @@ a:hover {
   justify-content: center;
 }
 
+/* 프론트 전체 div css */
 .front-end {
   padding: 5%;
   justify-content: space-around;
 }
 
+/* 백 전체 div css */
 .back-end .profile {
   margin-left: 50px;
   margin-right: 50px;
 }
 
+/* 프로필 전체를 감싸는 div css */
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* 프로필 이미지 css */
 .profile-image {
   position: relative;
   width: 200px;
@@ -176,6 +186,7 @@ a:hover {
   z-index: 2;
 }
 
+/* 프로필 인원 소개문구를 감싸는 div css */
 .profile-box {
   position: relative;
   width: 300px;
@@ -189,10 +200,12 @@ a:hover {
   padding-left: 30px;
 }
 
+/* 프로필 소개 문구 css */
 .profile-content {
   color:	#808080;
 }
 
+/* 이름 css */
 .name {
   font-weight: bold;
   font-size: 30px;
