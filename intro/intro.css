@@ -121,9 +121,10 @@ a:hover {
   font-family: 'Dancing Script', cursive;
   display: flex;
   justify-content: center;
-  color: #FFB8B9;
-  font-size: 60px;
-  margin-bottom: 7%;
+  color: white;
+  font-size: 40pt;
+  margin-bottom: 3%;
+  text-shadow: 1px 2px 2px lightcoral;
 }
 
 /* 백, 프론트 인원 div 공통 css */
